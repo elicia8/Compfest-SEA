@@ -1,0 +1,83 @@
+html {
+    font-size: 10px;
+    overflow: auto;
+    height: 100%;
+}
+body, nav {
+    background-color: #fff6ee;
+}
+body {
+    font-size: 1.5rem;
+    padding-top: 6.3rem;
+    margin: 0;
+}
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2rem;
+    z-index: 100;
+    overflow-x: auto;
+}
+nav a {
+    font-size: 2rem;
+    text-decoration: none;
+}
+.red-font {
+    color: #721313;
+}
+.red-background {
+    background-color: #721313;
+}
+.peach-text {
+    color: #fff6ee;
+}
+#first-healthy-meal-service {
+    background-color: rgba(114, 19, 19, 0.8);
+    display: inline;
+    border-radius: 0.5rem;
+    padding: 0.35rem 1rem;
+}
+.overlay-container {
+    display: flex;
+    position: relative;
+    width: 100%;
+    justify-content: center;
+}
+.overlay {
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 100%;
+    height: 50rem;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+.image {
+    width: 100%;
+    height: 50rem;
+    object-fit: cover;
+    display: block;
+}
+.overlay-text {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    align-items: center;
+}
+.white-text {
+    color: white;
+}
+.h1-p-reverse {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+.horizontal-flex {
+    display: flex;
+    justify-content: center;
+}
