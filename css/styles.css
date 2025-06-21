@@ -7,7 +7,6 @@ body, nav {
     background-color: #fff6ee;
 }
 body {
-    font-size: 1.5rem;
     padding-top: 6.3rem;
     margin: 0;
 }
@@ -27,6 +26,26 @@ nav a {
     font-size: 2rem;
     text-decoration: none;
 }
+h1, .fira-sans {
+    font-family: "Fira Sans", Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+h1 {
+    font-size: 8rem;
+}
+h2 {
+    font-size: 7rem;
+}
+.poppins {
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+}
+.italianno {
+    font-family: 'Italianno', 'Lucida Handwriting', cursive;
+    font-weight: 400;
+}
+.open-sans {
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+}
 .red-font {
     color: #721313;
 }
@@ -39,7 +58,7 @@ nav a {
 #first-healthy-meal-service {
     background-color: rgba(114, 19, 19, 0.8);
     display: inline;
-    border-radius: 0.5rem;
+    border-radius: 0.7rem;
     padding: 0.35rem 1rem;
 }
 .overlay-container {
@@ -65,9 +84,19 @@ nav a {
 .overlay-text {
     display: flex;
     flex-direction: column;
-    position: absolute;
-    top: 0;
+    justify-content: center;
     align-items: center;
+    position: absolute;
+    top: 6rem;
+}
+.overlay-text * {
+    margin: 0;
+}
+.overlay-text p, .overlay-text li {
+    font-size: 2rem;
+}
+.overlay-text .margin {
+    margin: 1.5rem;
 }
 .white-text {
     color: white;
@@ -80,4 +109,5 @@ nav a {
 .horizontal-flex {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
