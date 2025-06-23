@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SEA Catering | Meal Plans</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -16,12 +18,12 @@
       <nav>
         <a class="red-font" href="index.html">Home</a>
         <a class="red-font" href="meal_plans.html">Meal Plans</a>
-        <a class="red-font" href="">Subscription</a>
-        <a class="red-font" href="">Contact Us</a>
+        <a class="red-font" href="subscription.html">Subscription</a>
+        <a class="red-font" href="contact_us.html">Contact Us</a>
       </nav>
     </header>
     <main>
-      <h1>Meal Plans</h1>
+      <h1 class="section-title red-font">Meal Plans</h1>
       <div class="white-text horizontal-flex horizontal-flex-gap">
         <article>
           <div class="overlay-container">
@@ -32,7 +34,7 @@
             />
             <div class="meal-plans-overlay"></div>
             <div class="overlay-text meal-plans-overlay-text">
-              <h2 class="plan-name">Diet Plan</h2>
+              <h2 class="section-sub-title">Diet Plan</h2>
               <p>Rp 30.000,00/meal</p>
               <p>
                 A well-rounded meal plan designed to support healthy weight
@@ -50,12 +52,13 @@
             />
             <div class="meal-plans-overlay"></div>
             <div class="overlay-text meal-plans-overlay-text">
-              <h2 class="plan-name">Protein Plan</h2>
+              <h2 class="section-sub-title">Protein Plan</h2>
               <p>Rp 40.000,00/meal</p>
               <p>
                 This plan is designed to support muscle growth, improve
                 recovery, and keep you energized throughout the day.
               </p>
+              <button class="btn pop-up-btn">See More Details ></button>
             </div>
           </div>
         </article>
@@ -68,7 +71,7 @@
             />
             <div class="meal-plans-overlay"></div>
             <div class="overlay-text meal-plans-overlay-text">
-              <h2 class="plan-name">Royal Plan</h2>
+              <h2 class="section-sub-title">Royal Plan</h2>
               <p>Rp 60.000,00/meal</p>
               <p>
                 Experience our most exclusive meal plan with premium ingredients
@@ -80,9 +83,10 @@
       </div>
     </main>
     <footer class="red-background">
-      <h5>Contact Details</h5>
-      <p><strong>Manager: </strong>Brian</p>
-      <p><strong>Phone: </strong>08123456789</p>
+      <h5 class="footer-contents">Contact Details</h5>
+      <p class="footer-contents"><strong>Manager: </strong>Brian</p>
+      <p class="footer-contents"><strong>Phone: </strong>08123456789</p>
     </footer>
+    <script src="index.js"></script>
   </body>
 </html>
