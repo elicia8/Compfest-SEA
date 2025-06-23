@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SEA Catering | Home</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -28,9 +30,9 @@
           alt="six dishes on different bowls"
         />
         <div class="overlay"></div>
-        <div class="overlay-text" id="home-overlay-text">
+        <div class="overlay-text">
           <div class="h1-p-reverse">
-            <h1 class="white-text">Welcome to SEA Catering!</h1>
+            <h1 class="white-text section-title">Welcome to SEA Catering!</h1>
             <p class="peach-text poppins" id="first-healthy-meal-service">
               #1 Healthy Meal Service in Indonesia
             </p>
@@ -52,17 +54,68 @@
           </div>
         </div>
       </div>
-      <h3>Testimonials</h3>
-      <h4>Overall Rating: 4.67 Stars</h4>
-      <h4>Enjoyed your meal? Share your review with us!</h4>
-      <p>
-        Please fill in the required fields (*) before submitting your review.
-      </p>
+      <section>
+        <h3 class="section-title red-font">Testimonials</h3>
+        <h4 class="section-sub-title red-font open-sans normal-margin">
+          Overall Rating: 4.67 Stars
+        </h4>
+        <h4 class="section-sub-title red-font leckerli-one normal-margin">
+          Enjoyed your meal? Share your review with us!
+        </h4>
+        <p class="section-body-text red-font fira-sans normal-margin">
+          Please fill in the required fields (*) before submitting your review.
+        </p>
+        <div class="overlay-container form-overlay-container">
+          <div class="form-background"></div>
+          <div class="overlay-text form-overlay-text">
+            <form action="after_form_submission.html" method="get">
+              <div class="form-group">
+                <label for="name" class="fira-sans">Name *</label>
+                <input
+                  type="text"
+                  id="name"
+                  placeholder="Enter name"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label for="review-message" class="fira-sans"
+                  >Review Message *</label
+                >
+                <textarea
+                  minlength="8"
+                  maxlength="100"
+                  name="review-message"
+                  rows="4"
+                  id="review-message"
+                  placeholder="Write atleast 8 characters. Max. 100 characters."
+                ></textarea>
+              </div>
+              <div class="form-group">
+                <label for="rating" class="fira-sans">Rating *</label>
+                <input
+                  type="number"
+                  id="rating"
+                  placeholder="Enter a number from 1-5"
+                  step="0.1"
+                  min="0.1"
+                  max="5.0"
+                  required
+                />
+              </div>
+              <div class="btn-container">
+                <button type="submit" class="btn">Submit</button>
+                <button type="reset" class="btn">Clear</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
     </main>
     <footer class="red-background">
-      <h5>Contact Details</h5>
-      <p><strong>Manager: </strong>Brian</p>
-      <p><strong>Phone: </strong>08123456789</p>
+      <h5 class="footer-contents">Contact Details</h5>
+      <p class="footer-contents"><strong>Manager: </strong>Brian</p>
+      <p class="footer-contents"><strong>Phone: </strong>08123456789</p>
     </footer>
   </body>
 </html>
