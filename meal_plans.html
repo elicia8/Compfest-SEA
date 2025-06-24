@@ -58,7 +58,9 @@
                 This plan is designed to support muscle growth, improve
                 recovery, and keep you energized throughout the day.
               </p>
-              <button class="btn pop-up-btn">See More Details ></button>
+              <button class="btn pop-up-btn" onclick="open_pop_up()">
+                See More Details >
+              </button>
             </div>
           </div>
         </article>
@@ -81,12 +83,228 @@
           </div>
         </article>
       </div>
+      <div class="all-container" id="pop-up">
+        <div class="pop-up-container">
+          <img
+            class="pop-up-background meal-plans-images"
+            src="images/protein_meal.jpg"
+            alt="a plate with meat, sliced lemon and carrots on top"
+          />
+          <div class="pop-up-background meal-plans-overlay"></div>
+          <div class="overlay-text fira-sans" id="pop-up-overlay-text">
+            <h3 class="white-text poppins section-sub-title">Protein Plan</h3>
+            <p
+              class="normal-margin open-sans red-font bold white-background text-with-background"
+            >
+              Breakfast
+            </p>
+            <table>
+              <thead>
+                <tr>
+                  <th>Meal Name</th>
+                  <th>Calories</th>
+                  <th>Protein</th>
+                  <th>Carbs</th>
+                  <th>Fat</th>
+                  <th>Fiber</th>
+                  <th>Sugar</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>2 scrambled eggs</td>
+                  <td>180 kcal</td>
+                  <td>12 g</td>
+                  <td>1 g</td>
+                  <td>14 g</td>
+                  <td>-</td>
+                  <td>-</td>
+                </tr>
+                <tr>
+                  <td>2 slices whole grain</td>
+                  <td>200 kcal</td>
+                  <td>6 g</td>
+                  <td>26 g</td>
+                  <td>8 g</td>
+                  <td>-</td>
+                  <td>-</td>
+                </tr>
+                <tr>
+                  <td>1 medium apple</td>
+                  <td>95 kcal</td>
+                  <td>25 g</td>
+                  <td>-</td>
+                  <td>-</td>
+                  <td>4 g</td>
+                  <td>19 g</td>
+                </tr>
+                <tr>
+                  <td>Total</td>
+                  <td>475 kcal</td>
+                  <td>43 g</td>
+                  <td>27 g</td>
+                  <td>22 g</td>
+                  <td>4 g</td>
+                  <td>19 g</td>
+                </tr>
+              </tbody>
+            </table>
+            <p
+              class="normal-margin open-sans red-font bold white-background text-with-background"
+            >
+              Lunch
+            </p>
+            <table>
+              <thead>
+                <tr>
+                  <th>Meal Name</th>
+                  <th>Calories</th>
+                  <th>Protein</th>
+                  <th>Carbs</th>
+                  <th>Fat</th>
+                  <th>Fiber</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>150 g grilled chicken breast</td>
+                  <td>248 kcal</td>
+                  <td>40 g</td>
+                  <td>-</td>
+                  <td>6 g</td>
+                  <td>-</td>
+                </tr>
+                <tr>
+                  <td>1/2 cup cooked quinoa</td>
+                  <td>111 kcal</td>
+                  <td>4 g</td>
+                  <td>20 g</td>
+                  <td>2 g</td>
+                  <td>-</td>
+                </tr>
+                <tr>
+                  <td>
+                    Mixed greens, cherry tomatoes, cucumber, 1 tbsp olive oil
+                    dressing
+                  </td>
+                  <td>120 kcal</td>
+                  <td>-</td>
+                  <td>5 g</td>
+                  <td>10 g</td>
+                  <td>2 g</td>
+                </tr>
+                <tr>
+                  <td>Total</td>
+                  <td>479 kcal</td>
+                  <td>44 g</td>
+                  <td>25 g</td>
+                  <td>18 g</td>
+                  <td>2 g</td>
+                </tr>
+              </tbody>
+            </table>
+            <p
+              class="normal-margin open-sans red-font bold white-background text-with-background"
+            >
+              Dinner
+            </p>
+            <table>
+              <thead>
+                <tr>
+                  <th>Meal Name</th>
+                  <th>Calories</th>
+                  <th>Protein</th>
+                  <th>Carbs</th>
+                  <th>Fat</th>
+                  <th>Fiber</th>
+                  <th>Omega-3</th>
+                  <th>Vitamin C</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>120 g grilled salmon</td>
+                  <td>233 kcal</td>
+                  <td>25 g</td>
+                  <td>-</td>
+                  <td>14 g</td>
+                  <td>-</td>
+                  <td>1.8 g</td>
+                  <td>-</td>
+                </tr>
+                <tr>
+                  <td>1/2 cooked steamed brown rice</td>
+                  <td>110 kcal</td>
+                  <td>2.5 g</td>
+                  <td>23 g</td>
+                  <td>-</td>
+                  <td>-</td>
+                  <td>-</td>
+                  <td>-</td>
+                </tr>
+                <tr>
+                  <td>1 cup steamed broccoli</td>
+                  <td>55 kcal</td>
+                  <td>-</td>
+                  <td>11 g</td>
+                  <td>-</td>
+                  <td>5 g</td>
+                  <td>-</td>
+                  <td>135% RDI</td>
+                </tr>
+                <tr>
+                  <td>Total</td>
+                  <td>398 kcal</td>
+                  <td>27.5 g</td>
+                  <td>34 g</td>
+                  <td>14 g</td>
+                  <td>5 g</td>
+                  <td>1.8 g</td>
+                  <td>135% RDI</td>
+                </tr>
+              </tbody>
+            </table>
+            <p
+              class="white-text normal-margin red-background text-with-background open-sans bold"
+            >
+              Daily Total
+            </p>
+            <table>
+              <thead>
+                <tr>
+                  <th>Calories</th>
+                  <th>Protein</th>
+                  <th>Carbs</th>
+                  <th>Fat</th>
+                  <th>Fiber</th>
+                  <th>Omega-3</th>
+                  <th>Vitamin-C</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1352 kcal</td>
+                  <td>114.5 g</td>
+                  <td>89 g</td>
+                  <td>54 g</td>
+                  <td>11 g</td>
+                  <td>1.8 g</td>
+                  <td>135% RDI</td>
+                </tr>
+              </tbody>
+            </table>
+            <button class="btn pop-up-btn" onclick="close_pop_up()">
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
     </main>
     <footer class="red-background">
       <h5 class="footer-contents">Contact Details</h5>
       <p class="footer-contents"><strong>Manager: </strong>Brian</p>
       <p class="footer-contents"><strong>Phone: </strong>08123456789</p>
     </footer>
-    <script src="index.js"></script>
+    <script src="js/index.js"></script>
   </body>
 </html>
