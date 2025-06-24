@@ -63,14 +63,19 @@ footer {
     padding: 2rem;
     font-size: 1.8rem;
 }
+label {
+    display: block;
+}
+table, td, th{
+    border: 1px solid white;
+    border-collapse: collapse;
+    padding: 1rem;
+}
 .footer-contents {
     margin-bottom: 0;
     margin-top: 0;
 }
-label {
-    display: block;
-}
-.section-title, .fira-sans {
+.section-title, .fira-sans, label {
     font-family: "Fira Sans", Arial, Helvetica, sans-serif;
 }
 .section-title {
@@ -105,9 +110,6 @@ label {
 .peach-text {
     color: #fff6ee;
 }
-.white-text {
-    color: white;
-}
 #first-healthy-meal-service {
     background-color: rgba(114, 19, 19, 0.8);
     display: inline;
@@ -120,6 +122,7 @@ label {
     width: 100%;
     height: 100%;
     justify-content: center;
+    align-items: center;
     margin-bottom: 2rem;
 }
 .overlay {
@@ -136,6 +139,17 @@ label {
     object-fit: cover;
     display: block;
 }
+#pop-up-overlay-text {
+    top: 1rem;
+    justify-content: flex-start;
+    position: absolute;
+    align-items: center;
+    width: 90%;
+    font-size: 1.5rem;
+}
+table {
+    width: 100%;
+}
 .overlay-text {
     display: flex;
     flex-direction: column;
@@ -143,6 +157,7 @@ label {
     align-items: center;
     position: absolute;
     height: 100%;
+    width: 100%;
 }
 .meal-plans-images, .meal-plans-overlay {
     width: 26vw;
@@ -168,7 +183,7 @@ label {
 .overlay-text .margin {
     margin: 1.5rem;
 }
-.white-text, footer, .form-group {
+.white-text, footer, .form-group, table {
     color: white;
 }
 .h1-p-reverse {
@@ -228,6 +243,7 @@ label {
     padding: 2rem;
     width: 90%;
     border-radius: 5rem;
+    margin: 2rem;
 }
 .btn:hover {
     background-color: transparent;
@@ -252,4 +268,78 @@ label {
 .active {
     color: white;
     border-radius: 1rem;
+}
+.all-container {
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.1);
+    background-color: rgba(255, 255, 255, 0.5);
+    visibility: hidden;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.4s, top 0.4s;
+    overflow-y: auto;
+}
+.pop-up-container {
+    width: 60%;
+    height: 70%;
+    position: absolute;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    overflow: auto;
+}
+.pop-up-background {
+    width: 100%;
+    height: 115rem;
+    position: absolute;
+    align-items: center;
+    border-radius: 3rem;
+}
+.when-pop-up {
+    visibility: visible;
+    top: 50%;
+    transform: translate(-50%, -50%) scale(1);
+}
+.bold {
+    font-weight: 700;
+}
+.text-with-background {
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+}
+.white-background {
+    background-color: white;
+}
+.subscription-overlay-container {
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    width: 100%;
+    height: 53rem;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+.subscription-background {
+    position: absolute;
+    background-color: #721313;
+    width: 31%;
+    height: 100%;
+    border-radius: 2rem;
+}
+.subscription-overlay-text {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
 }
