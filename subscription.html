@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SEA Catering | Subscription</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&family=Italianno&family=Leckerli+One&family=Open+Sans:wght@400;700&family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a class="red-font" href="index.html">Home</a>
+        <a class="red-font" href="meal_plans.html">Meal Plans</a>
+        <a class="red-font" href="subscription.html">Subscription</a>
+        <a class="red-font" href="contact_us.html">Contact Us</a>
+      </nav>
+    </header>
+    <main>
+      <h1 class="section-title red-font">Subscription</h1>
+      <p class="section-body-text red-font fira-sans normal-margin">
+        Please fill in the required fields (*) before submitting your form.
+      </p>
+      <div class="subscription-overlay-container">
+        <div class="subscription-background"></div>
+        <div class="subscription-overlay-text">
+          <form action="after_form_submission.html" method="get">
+            <div class="form-group">
+              <label for="name">Full Name *</label>
+              <input
+                type="text"
+                id="name"
+                placeholder="Enter your full name"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="phone-number">Active Phone Number *</label>
+              <input
+                type="tel"
+                id="phone-number"
+                placeholder="Enter phone number"
+                pattern="[0-9]"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="plan-selection">Plan Selection *</label>
+              <input
+                type="text"
+                id="plan-selection"
+                placeholder="Choose your desired plan"
+              />
+            </div>
+            <div class="form-group">
+              <label for="meal-type">Meal Type *</label>
+              <input
+                type="text"
+                id="meal-type"
+                placeholder="Select one or more meal type"
+              />
+            </div>
+            <div class="form-group">
+              <label for="delivery-days">Delivery Days *</label>
+              <input
+                type="text"
+                id="delivery-days"
+                placeholder="Select one or more days"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="allergies">Allergies (Optional)</label>
+              <input
+                type="text"
+                id="allergies"
+                placeholder="List your allergies here"
+              />
+            </div>
+            <div class="btn-container">
+              <button type="submit" class="btn form-btn">Submit</button>
+              <button type="reset" class="btn form-btn">Clear</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </main>
+    <footer class="red-background">
+      <h5 class="footer-contents">Contact Details</h5>
+      <p class="footer-contents"><strong>Manager: </strong>Brian</p>
+      <p class="footer-contents"><strong>Phone: </strong>08123456789</p>
+    </footer>
+    <script src="js/index.js"></script>
+  </body>
+</html>
