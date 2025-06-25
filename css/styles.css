@@ -45,7 +45,7 @@ nav a {
     border-radius: 5px;
     color: white;
 }
-input, textarea {
+input, textarea, select {
     background-color: white;
     border-radius: 1rem;
     padding: 0.5rem;
@@ -71,7 +71,7 @@ table, td, th{
     border-collapse: collapse;
     padding: 1rem;
 }
-.footer-contents {
+footer > * {
     margin-bottom: 0;
     margin-top: 0;
 }
@@ -98,14 +98,17 @@ table, td, th{
     font-family: 'Italianno', 'Lucida Handwriting', cursive;
     font-weight: 400;
 }
-.open-sans, input, textarea, footer {
+.open-sans, input, textarea, footer, select {
     font-family: 'Open Sans', Arial, Helvetica, sans-serif;
 }
-.red-font, .btn {
+.red-font, .btn, input, select {
     color: #721313;
 }
 .red-background, .form-background, .go-back, .active {
     background-color: #721313;
+}
+.gray-text {
+    color: gray;
 }
 .peach-text {
     color: #fff6ee;
@@ -158,6 +161,9 @@ table {
     position: absolute;
     height: 100%;
     width: 100%;
+}
+.overlay-text p {
+    text-align: center;
 }
 .meal-plans-images, .meal-plans-overlay {
     width: 26vw;
@@ -342,4 +348,95 @@ table {
     justify-content: center;
     align-items: center;
     position: absolute;
+}
+.testimonial-slider-container {
+    overflow: hidden;
+    position: relative;
+}
+.testimonial-slider {
+    display: flex;
+    width: 300%;
+    animation: 12s slider infinite;
+}
+.slide {
+    float: left;
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 18rem;
+    width: 100%;
+}
+@keyframes slider {
+    0% {
+        transform: translateX(0);
+    }             
+    33.33% {
+        transform: translateX(-33.33%);
+    }
+    66.66% {
+        transform: translateX(-66.66%);
+    }
+    66.67% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+.testimonial-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+.testimonial-background {
+    width: 100%;
+    height: 80%;
+    position: absolute;
+    border-radius: 2rem;
+}
+.testimonial-overlay-text {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+
+}
+.testimonial-name {
+    position: absolute;
+    top: 0;
+    margin: 0;
+    width: 70%;
+    z-index: 2;
+}
+.body-text {
+    font-size: 1.5rem;
+}
+.name-and-text-container {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 25%;
+}
+.footer-container {
+    margin: 0;
+    display: flex;
+    gap: 15%;
+    justify-content: flex-start;
+    align-items: center;
+}
+.footer-group > * {
+    margin: 0;
+    padding: 0;
 }
