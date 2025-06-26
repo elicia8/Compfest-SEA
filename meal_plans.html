@@ -40,6 +40,9 @@
                 A well-rounded meal plan designed to support healthy weight
                 management and boost energy levels.
               </p>
+              <button class="btn pop-up-btn" onclick="open_popup1()">
+                See More Details >
+              </button>
             </div>
           </div>
         </article>
@@ -58,7 +61,7 @@
                 This plan is designed to support muscle growth, improve
                 recovery, and keep you energized throughout the day.
               </p>
-              <button class="btn pop-up-btn" onclick="open_pop_up()">
+              <button class="btn pop-up-btn" onclick="open_popup2()">
                 See More Details >
               </button>
             </div>
@@ -79,11 +82,255 @@
                 Experience our most exclusive meal plan with premium ingredients
                 and balanced nutrition.
               </p>
+              <button class="btn pop-up-btn" onclick="open_popup3()">
+                See More Details >
+              </button>
             </div>
           </div>
         </article>
       </div>
-      <div class="all-container" id="pop-up">
+      <div class="all-container" id="diet-popup">
+        <div class="pop-up-container">
+          <img
+            class="pop-up-background meal-plans-images"
+            src="images/diet_meal.jpg"
+            alt="a plate full of sliced cucumbers, tomatoes, and cabbages"
+          />
+          <div class="pop-up-background meal-plans-overlay"></div>
+          <div class="overlay-text fira-sans" id="pop-up-overlay-text">
+            <h3 class="white-text poppins section-sub-title">Diet Plan</h3>
+            <p
+              class="normal-margin open-sans red-font bold white-background text-with-background"
+            >
+              Breakfast
+            </p>
+            <table>
+              <thead>
+                <tr>
+                  <th>Main Ingredients</th>
+                  <th>Calories</th>
+                  <th>Protein</th>
+                  <th>Carbs</th>
+                  <th>Fat</th>
+                  <th>Fiber</th>
+                  <th>Sugar</th>
+                  <th>Omega-3</th>
+                  <th>Vitamin C</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Oatmeal (1/2 cup dry)</td>
+                  <td>150 kcal</td>
+                  <td>5 g</td>
+                  <td>27 g</td>
+                  <td>-</td>
+                  <td>4 g</td>
+                  <td>-</td>
+                  <td>0.2 g</td>
+                  <td>-</td>
+                </tr>
+                <tr>
+                  <td>Low-fat milk (1 cup)</td>
+                  <td>100 kcal</td>
+                  <td>8 g</td>
+                  <td>12 g</td>
+                  <td>2.5 g</td>
+                  <td>-</td>
+                  <td>-</td>
+                  <td>-</td>
+                  <td>2% RDI</td>
+                </tr>
+                <tr>
+                  <td>1 medium banana</td>
+                  <td>105 kcal</td>
+                  <td>-</td>
+                  <td>27 g</td>
+                  <td>-</td>
+                  <td>-</td>
+                  <td>14 g</td>
+                  <td>-</td>
+                  <td>17% RDI</td>
+                </tr>
+                <tr>
+                  <td>Total</td>
+                  <td>355 kcal</td>
+                  <td>13 g</td>
+                  <td>66 g</td>
+                  <td>2.5 g</td>
+                  <td>4 g</td>
+                  <td>14 g</td>
+                  <td>0.2 g</td>
+                  <td>19% RDI</td>
+                </tr>
+              </tbody>
+            </table>
+            <p
+              class="normal-margin open-sans red-font bold white-background text-with-background"
+            >
+              Lunch
+            </p>
+            <table>
+              <thead>
+                <tr>
+                  <th>Main Ingredients</th>
+                  <th>Calories</th>
+                  <th>Protein</th>
+                  <th>Carbs</th>
+                  <th>Fat</th>
+                  <th>Fiber</th>
+                  <th>Omega-3</th>
+                  <th>Vitamin C</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>150 g grilled tempe</td>
+                  <td>270 kcal</td>
+                  <td>30 g</td>
+                  <td>-</td>
+                  <td>13 g</td>
+                  <td>-</td>
+                  <td>0.15 g</td>
+                  <td>-</td>
+                </tr>
+                <tr>
+                  <td>1 cup cooked brown rice</td>
+                  <td>215 kcal</td>
+                  <td>5 g</td>
+                  <td>45 g</td>
+                  <td>-</td>
+                  <td>4 g</td>
+                  <td>-</td>
+                  <td>-</td>
+                </tr>
+                <tr>
+                  <td>100 g steamed broccoli</td>
+                  <td>35 kcal</td>
+                  <td>-</td>
+                  <td>7 g</td>
+                  <td>-</td>
+                  <td>3 g</td>
+                  <td>-</td>
+                  <td>90% RDI</td>
+                </tr>
+                <tr>
+                  <td>Total</td>
+                  <td>520 kcal</td>
+                  <td>35 g</td>
+                  <td>52 g</td>
+                  <td>13 g</td>
+                  <td>7 g</td>
+                  <td>0.15 g</td>
+                  <td>90% RDI</td>
+                </tr>
+              </tbody>
+            </table>
+            <p
+              class="normal-margin open-sans red-font bold white-background text-with-background"
+            >
+              Dinner
+            </p>
+            <table>
+              <thead>
+                <tr>
+                  <th>Main Ingredients</th>
+                  <th>Calories</th>
+                  <th>Protein</th>
+                  <th>Carbs</th>
+                  <th>Fat</th>
+                  <th>Fiber</th>
+                  <th>Sugar</th>
+                  <th>Omega-3</th>
+                  <th>Vitamin C</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>100 g tofu</td>
+                  <td>145 kcal</td>
+                  <td>13 g</td>
+                  <td>-</td>
+                  <td>9 g</td>
+                  <td>-</td>
+                  <td>-</td>
+                  <td>0.3 g</td>
+                  <td>-</td>
+                </tr>
+                <tr>
+                  <td>1 medium carrot</td>
+                  <td>25 kcal</td>
+                  <td>-</td>
+                  <td>6 g</td>
+                  <td>-</td>
+                  <td>2 g</td>
+                  <td>3 g</td>
+                  <td>-</td>
+                  <td>6% RDI</td>
+                </tr>
+                <tr>
+                  <td>1 cup shredded cabbage</td>
+                  <td>22 kcal</td>
+                  <td>-</td>
+                  <td>5 g</td>
+                  <td>-</td>
+                  <td>-</td>
+                  <td>-</td>
+                  <td>-</td>
+                  <td>30% RDI</td>
+                </tr>
+                <tr>
+                  <td>Total</td>
+                  <td>192 kcal</td>
+                  <td>13 g</td>
+                  <td>11 g</td>
+                  <td>9 g</td>
+                  <td>2 g</td>
+                  <td>3 g</td>
+                  <td>0.3 g</td>
+                  <td>36% RDI</td>
+                </tr>
+              </tbody>
+            </table>
+            <p
+              class="white-text normal-margin red-background text-with-background open-sans bold"
+            >
+              Daily Total
+            </p>
+            <table>
+              <thead>
+                <tr>
+                  <th>Calories</th>
+                  <th>Protein</th>
+                  <th>Carbs</th>
+                  <th>Fat</th>
+                  <th>Fiber</th>
+                  <th>Sugar</th>
+                  <th>Omega-3</th>
+                  <th>Vitamin-C</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1067 kcal</td>
+                  <td>61 g</td>
+                  <td>129 g</td>
+                  <td>24.5 g</td>
+                  <td>13 g</td>
+                  <td>17 g</td>
+                  <td>0.65 g</td>
+                  <td>145% RDI</td>
+                </tr>
+              </tbody>
+            </table>
+            <button class="btn pop-up-btn" onclick="close_popup1()">
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="all-container" id="protein-popup">
         <div class="pop-up-container">
           <img
             class="pop-up-background meal-plans-images"
@@ -101,7 +348,7 @@
             <table>
               <thead>
                 <tr>
-                  <th>Meal Name</th>
+                  <th>Main Ingredients</th>
                   <th>Calories</th>
                   <th>Protein</th>
                   <th>Carbs</th>
@@ -157,7 +404,7 @@
             <table>
               <thead>
                 <tr>
-                  <th>Meal Name</th>
+                  <th>Main Ingredients</th>
                   <th>Calories</th>
                   <th>Protein</th>
                   <th>Carbs</th>
@@ -211,7 +458,7 @@
             <table>
               <thead>
                 <tr>
-                  <th>Meal Name</th>
+                  <th>Main Ingredients</th>
                   <th>Calories</th>
                   <th>Protein</th>
                   <th>Carbs</th>
@@ -293,7 +540,238 @@
                 </tr>
               </tbody>
             </table>
-            <button class="btn pop-up-btn" onclick="close_pop_up()">
+            <button class="btn pop-up-btn" onclick="close_popup2()">
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="all-container" id="royal-popup">
+        <div class="pop-up-container">
+          <img
+            class="pop-up-background meal-plans-images"
+            src="images/royal_meal.jpg"
+            alt="a plate full of meat, tomatoes, broccoli, and sliced cucumbers"
+          />
+          <div class="pop-up-background meal-plans-overlay"></div>
+          <div class="overlay-text fira-sans" id="pop-up-overlay-text">
+            <h3 class="white-text poppins section-sub-title">Diet Plan</h3>
+            <p
+              class="normal-margin open-sans red-font bold white-background text-with-background"
+            >
+              Breakfast
+            </p>
+            <table>
+              <thead>
+                <tr>
+                  <th>Main Ingredients</th>
+                  <th>Calories</th>
+                  <th>Protein</th>
+                  <th>Fat</th>
+                  <th>Fiber</th>
+                  <th>Omega-3</th>
+                  <th>Vitamin C</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>50 g smoked salmon</td>
+                  <td>117 kcal</td>
+                  <td>13 g</td>
+                  <td>7 g</td>
+                  <td>-</td>
+                  <td>1.3 g</td>
+                  <td>-</td>
+                </tr>
+                <tr>
+                  <td>1/2 medium avocado</td>
+                  <td>120 kcal</td>
+                  <td>-</td>
+                  <td>10 g</td>
+                  <td>5 g</td>
+                  <td>-</td>
+                  <td>15% RDI</td>
+                </tr>
+                <tr>
+                  <td>1 large poached egg</td>
+                  <td>70 kcal</td>
+                  <td>6 g</td>
+                  <td>5 g</td>
+                  <td>-</td>
+                  <td>0.03 g</td>
+                  <td>-</td>
+                </tr>
+                <tr>
+                  <td>Total</td>
+                  <td>307 kcal</td>
+                  <td>19 g</td>
+                  <td>22 g</td>
+                  <td>5 g</td>
+                  <td>1.33 g</td>
+                  <td>15% RDI</td>
+                </tr>
+              </tbody>
+            </table>
+            <p
+              class="normal-margin open-sans red-font bold white-background text-with-background"
+            >
+              Lunch
+            </p>
+            <table>
+              <thead>
+                <tr>
+                  <th>Main Ingredients</th>
+                  <th>Calories</th>
+                  <th>Protein</th>
+                  <th>Carbs</th>
+                  <th>Fat</th>
+                  <th>Fiber</th>
+                  <th>Sugar</th>
+                  <th>Omega-3</th>
+                  <th>Vitamin C</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>100 g grilled shrimp</td>
+                  <td>99 kcal</td>
+                  <td>24 g</td>
+                  <td>-</td>
+                  <td>1 g</td>
+                  <td>-</td>
+                  <td>-</td>
+                  <td>0.5 g</td>
+                  <td>-</td>
+                </tr>
+                <tr>
+                  <td>1 cup quinoa</td>
+                  <td>222 kcal</td>
+                  <td>8 g</td>
+                  <td>39 g</td>
+                  <td>-</td>
+                  <td>5 g</td>
+                  <td>-</td>
+                  <td>0.1 g</td>
+                  <td>-</td>
+                </tr>
+                <tr>
+                  <td>1/2 cup arils pomegranate</td>
+                  <td>72 kcal</td>
+                  <td>-</td>
+                  <td>16 g</td>
+                  <td>-</td>
+                  <td>-</td>
+                  <td>12 g</td>
+                  <td>-</td>
+                  <td>15% RDI</td>
+                </tr>
+                <tr>
+                  <td>Total</td>
+                  <td>393 kcal</td>
+                  <td>32 g</td>
+                  <td>55 g</td>
+                  <td>1 g</td>
+                  <td>5 g</td>
+                  <td>12 g</td>
+                  <td>0.6 g</td>
+                  <td>15% RDI</td>
+                </tr>
+              </tbody>
+            </table>
+            <p
+              class="normal-margin open-sans red-font bold white-background text-with-background"
+            >
+              Dinner
+            </p>
+            <table>
+              <thead>
+                <tr>
+                  <th>Main Ingredients</th>
+                  <th>Calories</th>
+                  <th>Protein</th>
+                  <th>Carbs</th>
+                  <th>Fat</th>
+                  <th>Fiber</th>
+                  <th>Omega-3</th>
+                  <th>Vitamin C</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>120 g lamb loin</td>
+                  <td>294 kcal</td>
+                  <td>28 g</td>
+                  <td>-</td>
+                  <td>20 g</td>
+                  <td>-</td>
+                  <td>0.2 g</td>
+                  <td>-</td>
+                </tr>
+                <tr>
+                  <td>100 g grilled zucchini</td>
+                  <td>17 kcal</td>
+                  <td>-</td>
+                  <td>3 g</td>
+                  <td>-</td>
+                  <td>1 g</td>
+                  <td>-</td>
+                  <td>30% RDI</td>
+                </tr>
+                <tr>
+                  <td>1 medium red bell pepper</td>
+                  <td>37 kcal</td>
+                  <td>-</td>
+                  <td>9 g</td>
+                  <td>-</td>
+                  <td>-</td>
+                  <td>-</td>
+                  <td>159% RDI</td>
+                </tr>
+                <tr>
+                  <td>Total</td>
+                  <td>350 kcal</td>
+                  <td>20 g</td>
+                  <td>12 g</td>
+                  <td>20 g</td>
+                  <td>1 g</td>
+                  <td>0.2 g</td>
+                  <td>189% RDI</td>
+                </tr>
+              </tbody>
+            </table>
+            <p
+              class="white-text normal-margin red-background text-with-background open-sans bold"
+            >
+              Daily Total
+            </p>
+            <table>
+              <thead>
+                <tr>
+                  <th>Calories</th>
+                  <th>Protein</th>
+                  <th>Carbs</th>
+                  <th>Fat</th>
+                  <th>Fiber</th>
+                  <th>Sugar</th>
+                  <th>Omega-3</th>
+                  <th>Vitamin-C</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1050 kcal</td>
+                  <td>71 g</td>
+                  <td>67 g</td>
+                  <td>43 g</td>
+                  <td>11 g</td>
+                  <td>12 g</td>
+                  <td>2.13 g</td>
+                  <td>219% RDI</td>
+                </tr>
+              </tbody>
+            </table>
+            <button class="btn pop-up-btn" onclick="close_popup3()">
               Close
             </button>
           </div>
