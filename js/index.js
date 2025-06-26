@@ -5,10 +5,24 @@ const navLinks = document.querySelectorAll('nav a').forEach(link => {
     }
 })
 
-let popup = document.getElementById("pop-up");
-function open_pop_up(){
-    popup.classList.add("when-pop-up");
+let popup1 = document.getElementById("diet-popup");
+let popup2 = document.getElementById("protein-popup");
+let popup3 = document.getElementById("royal-popup");
+function open_popup1(){
+    popup1.classList.add("when-pop-up");
 }
-function close_pop_up(){
-    popup.classList.remove("when-pop-up");
+function close_popup1(){
+    popup1.classList.remove("when-pop-up");
+}
+function open_popup2(){
+    popup2.classList.add("when-pop-up");
+}
+function close_popup2(){
+    popup2.classList.remove("when-pop-up");
+}
+function open_popup3(){
+    popup3.classList.add("when-pop-up");
+}
+function close_popup3(){
+    popup3.classList.remove("when-pop-up");
 }
