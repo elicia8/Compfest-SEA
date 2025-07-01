@@ -26,3 +26,6 @@ Website ini terdiri dari 4 halaman, yaitu:
 - Visual Studio Code (sebagai code editor)
 
 ## Struktur File
+```
+index.html
+```
