@@ -44,7 +44,7 @@ Website ini terdiri dari 4 halaman, yaitu:
    - index.js (untuk menampilkan pop up pada halaman Meal Plans, serta slider pada halaman Home (Testimonials))
  
 ## Fonts
-Website ini menggunakan font dari [Google Fonts](#https://fonts.google.com/)
+Website ini menggunakan font dari Google Fonts https://fonts.google.com
 
 Font yang digunakan:
 - Fira Sans
