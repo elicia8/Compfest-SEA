@@ -8,6 +8,7 @@ SEA Catering adalah sebuah website yang menyediakan layanan katering agar pelang
 - [Fitur](#fitur)
 - [Tools](#tools)
 - [Struktur File](#struktur-file)
+- [Fonts](#fonts)
 
 ## Deployment
 Website ini telah dideploy menggunakan Github Pages dan dapat diakses di https://elicia8.github.io/Compfest-SEA/index.html
@@ -26,6 +27,23 @@ Website ini terdiri dari 4 halaman, yaitu:
 - Visual Studio Code (sebagai code editor)
 
 ## Struktur File
-```
-index.html
-```
+- index.html (halaman utama)
+- meal_plans.html
+- subscription.html
+- contact_us.html
+- after_form_submission.html (pengguna diarahkan ke halaman ini ketika berhasil submit form yang terdapat di halaman Home, Subscription, dan Contact Us)
+- css/
+   - normalize.css
+   - styles.css (style utama)
+- images/
+   - diet_plan.jpg
+- js/
+   - index.js (untuk menampilkan pop up pada halaman Meal Plans, serta slider pada halaman Home (Testimonials)
+ 
+## Fonts
+Website ini menggunakan font dari [Google Fonts](#https://fonts.google.com/)
+
+Font yang digunakan:
+- Italianno
+- Open Sans
+- Poppins
