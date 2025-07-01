@@ -7,7 +7,7 @@ SEA Catering adalah sebuah website yang menyediakan layanan katering agar pelang
 - [Deployment](#deployment)
 - [Fitur](#fitur)
 - [Tools](#tools)
-- [Struktur File](#struktur-file)
+- [File Structure](#file-structure)
 - [Fonts](#fonts)
 
 ## Deployment
@@ -26,7 +26,7 @@ Website ini terdiri dari 4 halaman, yaitu:
 - JavaScript
 - Visual Studio Code (sebagai code editor)
 
-## Struktur File
+## File Structure
 - index.html (halaman utama)
 - meal_plans.html
 - subscription.html
