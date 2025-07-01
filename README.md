@@ -36,14 +36,19 @@ Website ini terdiri dari 4 halaman, yaitu:
    - normalize.css
    - styles.css (style utama)
 - images/
-   - diet_plan.jpg
+   - diet_meal.jpg
+   - protein_meal.jpg
+   - royal_meal.jpg
+   - six_dishes_on_bowls.jpg
 - js/
-   - index.js (untuk menampilkan pop up pada halaman Meal Plans, serta slider pada halaman Home (Testimonials)
+   - index.js (untuk menampilkan pop up pada halaman Meal Plans, serta slider pada halaman Home (Testimonials))
  
 ## Fonts
 Website ini menggunakan font dari [Google Fonts](#https://fonts.google.com/)
 
 Font yang digunakan:
+- Fira Sans
 - Italianno
+- Leckerli One
 - Open Sans
 - Poppins
